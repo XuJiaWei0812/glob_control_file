@@ -34,7 +34,7 @@ python rename.py
 python convert_format.py
 ```
 
-### 圖片壓縮
+### 圖片壓縮 compression.py
 
 將想要壓縮名的圖片放入"img"資料夾，然後運行：
 
