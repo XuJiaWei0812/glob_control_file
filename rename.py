@@ -2,8 +2,8 @@ import glob
 import os
 import shutil
 
-source_folder = './原始圖片/'  # 原始檔案所在資料夾
-target_folder = './重新命名/'  # 目標資料夾，存放複製並重新命名的檔案
+source_folder = './img/'  # 原始檔案所在資料夾
+target_folder = './rename/'  # 目標資料夾，存放複製並重新命名的檔案
 
 # 確保目標資料夾存在，如果不存在則創建
 os.makedirs(target_folder, exist_ok=True)
